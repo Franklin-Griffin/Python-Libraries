@@ -1,5 +1,5 @@
 # Python-Libraries
-A complitation of a few of the many fun libraries in Python
+A compilation of a few of the many fun libraries in Python
 Code examples for:
 - Sending emails
 - Working with a computer's GUI
