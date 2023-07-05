@@ -10,7 +10,7 @@ while(True):
     gui.click()
     gui.moveTo(1330, 380+110, duration=0.5)
     gui.click()
-    gui.typewrite("frankiegriffin107@gmail.com", interval=0.01)
+    gui.typewrite("YOUREMAIL@gmail.com", interval=0.01)
     gui.moveRel(0, 30, duration=0.5)
     gui.doubleClick()
     gui.typewrite("This is an automated message", interval=0.01)

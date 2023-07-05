@@ -3,8 +3,8 @@ import smtplib, ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-sender_email = "frankiegriffin107@gmail.com"
-receiver_emails = ["frankiegriffin107@gmail.com"]
+sender_email = "YOUREMAIL@gmail.com"
+receiver_emails = ["SOMEEMAIL@gmail.com"]
 password = input("Type your password and press enter: ")
 
 message = MIMEMultipart("alternative")
@@ -46,3 +46,5 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
         server.sendmail(
             sender_email, receiver_email, message.as_string()
         )
+
+print("Message sent")
